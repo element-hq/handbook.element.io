@@ -153,29 +153,29 @@ header {
   font-size: 0;
   height: 36px;
   aspect-ratio: 7.3 / 1;
-  background-image: url(https://gsouquet.github.io/emsdocs-images/images/logo.png);
+  background-image: url(https://vector-im.github.io/handbook.element.io/images/logo.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 @media (prefers-color-scheme: light) {
   .logo-text {
-    background-image: url(https://gsouquet.github.io/emsdocs-images/images/logo.png);
+    background-image: url(https://vector-im.github.io/handbook.element.io/images/logo.png);
   }
 }
 
 @media (prefers-color-scheme: dark) {
   .logo-text {
-    background-image: url(https://gsouquet.github.io/emsdocs-images/images/logo-dark.png);
+    background-image: url(https://vector-im.github.io/handbook.element.io/images/logo-dark.png);
   }
 }
 
 .light-mode .logo-text {
-  background-image: url(https://gsouquet.github.io/emsdocs-images/images/logo.png);
+  background-image: url(https://vector-im.github.io/handbook.element.io/images/logo.png);
 }
 
 .dark-mode .logo-text {
-  background-image: url(https://gsouquet.github.io/emsdocs-images/images/logo-dark.png);
+  background-image: url(https://vector-im.github.io/handbook.element.io/images/logo-dark.png);
 }
 
 /**
