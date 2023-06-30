@@ -19,4 +19,11 @@ window.onload = function () {
     } else {
         root.classList.add("cpd-theme-light")
     }
+
+    const menu = document.querySelector(".tri-layout-mobile-tabs")
+    const observer = new IntersectionObserver(
+        ([e]) => e.target.classList.toggle("is-pinned", e.intersectionRatio < 1),
+        { threshold: [1] }
+    );
+    observer.observe(menu);
 };

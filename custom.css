@@ -96,10 +96,14 @@ body::after {
  */
 
 #header {
-  background: var(--cpd-color-bg-canvas-default) !important;
+  background: transparent !important;
   border-bottom: 1px solid var(--cpd-color-bg-subtle-primary);
   box-shadow: none;
-  z-index: -2;
+  z-index: 10;
+}
+
+.tri-layout-mobile-tabs.is-pinned {
+  background: var(--cpd-color-bg-canvas-default) !important;
 }
 
 .header-links .svg-icon {
