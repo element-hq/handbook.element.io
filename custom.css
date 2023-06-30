@@ -86,7 +86,7 @@ body::after {
 
 .content-wrap.card {
   box-shadow: none;
-  border: 1px solid var(--cpd-color-bg-subtle-primary);
+  border: 1px solid var(--cpd-color-bg-subtle-secondary);
   border-radius: 24px;
   padding: var(--cpd-space-10x) var(--cpd-space-13x);
 }
@@ -237,7 +237,7 @@ a {
 }
 
 .card {
-  background: var(--cpd-color-bg-subtle-primary) !important;
+  background: var(--cpd-color-bg-subtle-secondary) !important;
 }
 
 .text-muted {
